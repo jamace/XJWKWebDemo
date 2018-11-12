@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>五月活动分享页面</title>
+</head>
+<style>
+    * {
+        font-size: 40px;
+    }
+</style>
+<body>
+<div>
+    <div><input type="button" value="邀请好友" onclick="inviteFriends()"></div>
+</div>
+<script type="text/javascript">
+    function inviteFriends() {
+        var params ={'name':'1111'};
+        JKEventHandler.callNativeFunction('inviteFriends',params,null,null);
+    }
+</script>
+
+</body>
+</html>
